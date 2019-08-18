@@ -47,7 +47,7 @@ function updateStudent(params, newStudent) {
         helper.writeJSONFile(`./data/${params.studentId}.json`, student)
 
         let courses = _.pick(student, resp.query)
-        if(resp.data) student.courses = courses;
+        if (resp.data) student.courses = courses;
 
         resolve(student)
       })

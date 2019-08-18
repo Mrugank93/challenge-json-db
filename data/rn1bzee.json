@@ -1,1 +1,12 @@
-{"id":"rn1bzee","courses":{"calculus":{"quizzes":{"ye0ab62":{"score":90}}}}}
+{
+  "id": "rn1bzee",
+  "courses": {
+    "calculus": {
+      "quizzes": {
+        "ye0ab62": {
+          "score": 90
+        }
+      }
+    }
+  }
+}

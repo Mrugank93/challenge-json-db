@@ -18,10 +18,12 @@ app.use(bodyParser.urlencoded({
 
 // First route
 app.get('/health', (req, res) => {
-    res.json({ success: true })
+  res.json({
+    success: true
+  })
 })
 
-app.use('/',api)
+app.use('/', api)
 
 app.use(middleware.handleError)
 app.use(middleware.notFound)
